@@ -47,6 +47,8 @@ public class AddGoalActivity extends AppCompatActivity {
     private int counterOfSymbols=0;
 
 
+    //WORK!?
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {

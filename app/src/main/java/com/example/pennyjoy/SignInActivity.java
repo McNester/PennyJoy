@@ -97,7 +97,7 @@ public class  SignInActivity extends AppCompatActivity {
                             } else {
 
                                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+
                                 //работа с категориями
                                 CategoryList categoryList=CategoryList.getInstance();
                                 categoryList.init();

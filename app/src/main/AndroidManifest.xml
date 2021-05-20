@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PennyJoy">
-        <activity android:name=".SplashActivity">
+        <activity android:name=".SplashActivity"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +23,8 @@
 
             </intent-filter>
         </activity>
-        <activity android:name=".ResultOfQuizActivity" />
+        <activity android:name=".ResultOfQuizActivity"
+            android:noHistory="true"/>
 
         <activity android:name=".QuestionsActivity">
             <intent-filter>
@@ -31,7 +33,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".HistoryActivity" />
-        <activity android:name=".SignInActivity">
+        <activity android:name=".SignInActivity"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

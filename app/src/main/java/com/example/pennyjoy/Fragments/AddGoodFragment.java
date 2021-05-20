@@ -64,7 +64,9 @@ public class AddGoodFragment extends Fragment {
 
 
 
-
+    //Is there anybody out there that's payin' attention?
+    //i'm here!1!!1!
+    //grgrgrgrhrhrhththtttttttttttttttttttttt
 
     @Nullable
     @Override
